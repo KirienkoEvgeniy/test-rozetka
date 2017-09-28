@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteTest" verbose="1" >
+    <test name="test" >
+
+        <groups>
+            <run>
+                <include name="checkH1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testingexamples.FirstTest" />
+        </classes>
+    </test>
+
+</suite>
